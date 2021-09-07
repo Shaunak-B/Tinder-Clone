@@ -2,11 +2,11 @@
     display:flex ;
     align-items: center;
     justify-content: space-between;
-
+    z-index: 100; /*We always want this at the top of the page in case we have a long page. */
     border-bottom: 1px solid #f9f9f9;
 
 }
-
+  
 .header__logo{
     object-fit: contain;
     height: 48px;
